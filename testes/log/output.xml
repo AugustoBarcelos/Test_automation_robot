@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230831 20:01:48.927" rpa="false" schemaversion="4">
+<suite id="s1" name="Test" source="C:\Users\augus\Desktop\NOVO AQUI\testes\test.robot">
+<test id="s1-t1" name="Hello World" line="5">
+<kw name="KeywordExample" library="test">
+<var>${resultado}</var>
+<arg>10</arg>
+<kw name="Hello World" library="hello_world">
+<var>${resultado}</var>
+<msg timestamp="20230831 20:01:48.950" level="INFO">Hello, World!</msg>
+<msg timestamp="20230831 20:01:48.950" level="INFO">${resultado} = None</msg>
+<status status="PASS" starttime="20230831 20:01:48.950" endtime="20230831 20:01:48.950"/>
+</kw>
+<msg timestamp="20230831 20:01:48.950" level="INFO">${resultado} = None</msg>
+<status status="PASS" starttime="20230831 20:01:48.949" endtime="20230831 20:01:48.950"/>
+</kw>
+<status status="PASS" starttime="20230831 20:01:48.949" endtime="20230831 20:01:48.950"/>
+</test>
+<status status="PASS" starttime="20230831 20:01:48.929" endtime="20230831 20:01:48.951"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
